@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fr.sdz.animal/fr.sdz.animal.iml" filepath="$PROJECT_DIR$/fr.sdz.animal/fr.sdz.animal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fr.sdz.tests/fr.sdz.tests.iml" filepath="$PROJECT_DIR$/fr.sdz.tests/fr.sdz.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdz.iml" filepath="$PROJECT_DIR$/sdz.iml" />
+    </modules>
+  </component>
+</project>
