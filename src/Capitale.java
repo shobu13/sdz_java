@@ -15,7 +15,7 @@ public class Capitale extends Ville {
         this._monument = "aucun";
     }
 
-    public Capitale(String nomVille, String nomPays, int nbreHabitants, String _monument) {
+    public Capitale(String nomVille, String nomPays, int nbreHabitants, String _monument) throws NombreHabitantException, NomVilleException {
         super(nomVille, nomPays, nbreHabitants);
         this._monument = _monument;
     }

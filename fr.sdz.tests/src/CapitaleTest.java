@@ -15,7 +15,14 @@ class CapitaleTest {
 
     @Test
     public void TestConstructorWithParameter() {
-        Capitale capitale = new Capitale("Rennes", "Bretagne", 10, "Parlement");
+        Capitale capitale = null;
+        try {
+            capitale = new Capitale("Rennes", "Bretagne", 10, "Parlement");
+        } catch (NombreHabitantException e) {
+            e.printStackTrace();
+        } catch (NomVilleException e) {
+            e.printStackTrace();
+        }
         Assertions.assertEquals("Rennes", capitale.getNomVille());
         Assertions.assertEquals("Bretagne", capitale.getNomPays());
         Assertions.assertEquals(10, capitale._nbreHabitants);

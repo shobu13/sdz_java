@@ -41,7 +41,13 @@ public class Ville {
         nbreInstance++;
     }
 
-    public Ville(String nomVille, String nomPays, int nbreHabitants) {
+    public Ville(String nomVille, String nomPays, int nbreHabitants)
+    throws NombreHabitantException, NomVilleException
+    {
+        if(nbreHabitants < 0)
+            throw new NombreHabitantException();
+        if(nomVille.length() < 3)
+            throw new NomVilleException("le nom de la ville est inférieur à 3 caractères ! nom = " + nomVille);
         this._nomVille = nomVille;
         this._nomPays = nomPays;
         this._nbreHabitants = nbreHabitants;

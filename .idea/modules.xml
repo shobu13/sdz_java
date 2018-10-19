@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fr.sdz.animal/fr.sdz.animal.iml" filepath="$PROJECT_DIR$/fr.sdz.animal/fr.sdz.animal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fr.sdz.generic/fr.sdz.generic.iml" filepath="$PROJECT_DIR$/fr.sdz.generic/fr.sdz.generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fr.sdz.interfaceJava8/fr.sdz.interfaceJava8.iml" filepath="$PROJECT_DIR$/fr.sdz.interfaceJava8/fr.sdz.interfaceJava8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fr.sdz.reflex/fr.sdz.reflex.iml" filepath="$PROJECT_DIR$/fr.sdz.reflex/fr.sdz.reflex.iml" />
       <module fileurl="file://$PROJECT_DIR$/fr.sdz.tests/fr.sdz.tests.iml" filepath="$PROJECT_DIR$/fr.sdz.tests/fr.sdz.tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/sdz.iml" filepath="$PROJECT_DIR$/sdz.iml" />
     </modules>
